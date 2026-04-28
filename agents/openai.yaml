@@ -1,0 +1,4 @@
+interface:
+  display_name: "VMP 计算规则提取"
+  short_description: "从 VMP handle 日志中提取计算链并生成脚本。"
+  default_prompt: "从明文参与计算到目标密文产生的 VMP 区间中，只收集参与结果生成的 eor/add/sub/mul/and/orr/lsl/lsr/neg/ror/mov 等计算指令，按 v1..vn 生成变量，并输出可验证的计算脚本。"
